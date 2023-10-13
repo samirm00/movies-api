@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.movie-container img {
+    border-radius: 9px;
+}
