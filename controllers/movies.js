@@ -56,7 +56,7 @@ const moviesControllers = {
         const { id } = req.params;
         const movieExist = getMovieById(id);
         if (movieExist) {
-            res.status(200).json(movieExist);
+            res.status(200).render('movie', { movie: movieExist });
         } else {
             res.status(404).json({
                 message: `movie with id ${id} doesn't existed`

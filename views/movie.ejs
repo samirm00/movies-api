@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie</title>
+    </head>
+    <body>
+        <div class="movie-container">
+            <% if(movie){ %>
+            <img src="<%= movie.src %>" alt="<%= movie.name %>" />
+            <h1><%= movie.name %></h1>
+            <% } %>
+        </div>
+    </body>
+</html>

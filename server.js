@@ -38,6 +38,7 @@ app.use((req, res) => {
         message: `this page doesn't exist`
     });
 });
+
 // listen
 app.listen(PORT, () => {
     console.log(`Server is up and running on port ${PORT}`);
